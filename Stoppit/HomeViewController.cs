@@ -14,8 +14,7 @@ namespace Stoppit
 		{
 			base.ViewDidLoad();
 
-			Title = "Do As You're Told";
-			View.BackgroundColor = UIColor.LightGray;
+			View.BackgroundColor = UIColor.White;
 
 			_button = UIButton.FromType(UIButtonType.RoundedRect);
 			_button.SetTitle("NO", UIControlState.Normal);

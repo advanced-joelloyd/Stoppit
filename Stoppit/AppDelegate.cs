@@ -28,8 +28,7 @@ namespace Stoppit
 			// create a new window instance based on the screen size
 			window = new UIWindow(UIScreen.MainScreen.Bounds);
 
-			// If you have defined a view, add it here:
-			// window.RootViewController  = navigationController;
+			window.RootViewController = new UINavigationController(new HomeViewController());
 
 			// make the window visible
 			window.MakeKeyAndVisible();
